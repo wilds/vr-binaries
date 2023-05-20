@@ -48,9 +48,8 @@
   "native-code" : "arm64-v8a",
   "extractor" : {
     "meta" : {
-      "timestamp" : 1684588813
+      "timestamp" : 1684625435
     },
-    "icons" : {
-    }
+    "icons" : { }
   }
 }
