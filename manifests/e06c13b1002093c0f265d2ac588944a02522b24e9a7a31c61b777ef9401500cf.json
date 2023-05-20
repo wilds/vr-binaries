@@ -1,22 +1,24 @@
 {
   "package" : {
-    "name" : "com.Jike.FenceBall",
-    "versionCode" : "58",
-    "versionName" : "1.1.1",
-    "platformBuildVersionName" : "11",
-    "platformBuildVersionCode" : "30",
-    "compileSdkVersion" : "30",
-    "compileSdkVersionCodename" : "11"
+    "name" : "com.ivanovichgames.pangman",
+    "versionCode" : "10",
+    "versionName" : "1.1",
+    "platformBuildVersionName" : "10",
+    "platformBuildVersionCode" : "29",
+    "compileSdkVersion" : "29",
+    "compileSdkVersionCodename" : "10"
   },
-  "install-location" : "preferExternal",
-  "sdkVersion" : "29",
-  "targetSdkVersion" : "30",
+  "install-location" : "auto",
+  "sdkVersion" : "25",
+  "targetSdkVersion" : "29",
   "uses-permission" : {
-    "name" : "android.permission.WRITE_SETTINGS"
+    "name" : "android.permission.WAKE_LOCK"
   },
-  "application-label" : "Smash Walls: RogueBall",
-  "application-label-en" : "Smash Walls: RogueBall",
-  "application-label-zh-CN" : "墙裂要球",
+  "application-label" : "Pangman",
+  "application-label-en" : "Pangman",
+  "application-label-ja" : "Pangman",
+  "application-label-ko" : "Pangman",
+  "application-label-zh" : "Pangman",
   "application-icon-120" : "res/mipmap-anydpi-v26/app_icon.xml",
   "application-icon-160" : "res/mipmap-anydpi-v26/app_icon.xml",
   "application-icon-240" : "res/mipmap-anydpi-v26/app_icon.xml",
@@ -24,9 +26,12 @@
   "application-icon-480" : "res/mipmap-anydpi-v26/app_icon.xml",
   "application-icon-640" : "res/mipmap-anydpi-v26/app_icon.xml",
   "application-icon-65534" : "res/mipmap-anydpi-v26/app_icon.xml",
-  "application" : "abel='Smash Walls: RogueBall' icon='res/mipmap-anydpi-v26/app_icon.xml",
+  "application" : {
+    "label" : "Pangman"
+  },
   "launchable-activity" : {
-    "name" : "com.unity3d.player.UnityPlayerActivity"
+    "name" : "com.unity3d.player.UnityPlayerNativeActivityPico",
+    "label" : "Pangman"
   },
   "feature-group" : "abel='",
   "uses-gl-es" : "0x30000",
@@ -34,14 +39,14 @@
     "name" : "android.hardware.touchscreen.multitouch.distinct"
   },
   "uses-feature" : {
-    "name" : "android.hardware.screen.landscape"
+    "name" : "android.hardware.wifi"
   },
   "uses-implied-feature" : {
-    "name" : "android.hardware.screen.landscape"
+    "name" : "android.hardware.wifi"
   },
   "supports-screens" : "small' 'normal' 'large' 'xlarge",
   "supports-any-density" : "true",
-  "locales" : "--_--' 'en' 'zh-CN",
+  "locales" : "--_--' 'en' 'ja' 'ko' 'zh",
   "densities" : "120' '160' '240' '320' '480' '640' '65534",
   "native-code" : "arm64-v8a",
   "extractor" : {

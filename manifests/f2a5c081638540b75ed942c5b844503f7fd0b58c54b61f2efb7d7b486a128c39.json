@@ -1,22 +1,21 @@
 {
   "package" : {
-    "name" : "com.Jike.FenceBall",
-    "versionCode" : "58",
-    "versionName" : "1.1.1",
-    "platformBuildVersionName" : "11",
-    "platformBuildVersionCode" : "30",
-    "compileSdkVersion" : "30",
-    "compileSdkVersionCodename" : "11"
+    "name" : "com.IvanovichGames.BeatBlaster",
+    "versionCode" : "15",
+    "versionName" : "1.69",
+    "platformBuildVersionName" : "13",
+    "platformBuildVersionCode" : "33",
+    "compileSdkVersion" : "33",
+    "compileSdkVersionCodename" : "13"
   },
-  "install-location" : "preferExternal",
-  "sdkVersion" : "29",
-  "targetSdkVersion" : "30",
+  "install-location" : "auto",
+  "sdkVersion" : "26",
+  "targetSdkVersion" : "33",
+  "supports-gl-texture" : "GL_KHR_texture_compression_astc_ldr",
   "uses-permission" : {
-    "name" : "android.permission.WRITE_SETTINGS"
+    "name" : "android.permission.READ_EXTERNAL_STORAGE"
   },
-  "application-label" : "Smash Walls: RogueBall",
-  "application-label-en" : "Smash Walls: RogueBall",
-  "application-label-zh-CN" : "墙裂要球",
+  "application-label" : "Beat Blaster",
   "application-icon-120" : "res/mipmap-anydpi-v26/app_icon.xml",
   "application-icon-160" : "res/mipmap-anydpi-v26/app_icon.xml",
   "application-icon-240" : "res/mipmap-anydpi-v26/app_icon.xml",
@@ -24,7 +23,7 @@
   "application-icon-480" : "res/mipmap-anydpi-v26/app_icon.xml",
   "application-icon-640" : "res/mipmap-anydpi-v26/app_icon.xml",
   "application-icon-65534" : "res/mipmap-anydpi-v26/app_icon.xml",
-  "application" : "abel='Smash Walls: RogueBall' icon='res/mipmap-anydpi-v26/app_icon.xml",
+  "application" : "abel='Beat Blaster' icon='res/mipmap-anydpi-v26/app_icon.xml",
   "launchable-activity" : {
     "name" : "com.unity3d.player.UnityPlayerActivity"
   },
@@ -34,19 +33,19 @@
     "name" : "android.hardware.touchscreen.multitouch.distinct"
   },
   "uses-feature" : {
-    "name" : "android.hardware.screen.landscape"
+    "name" : "android.hardware.wifi"
   },
   "uses-implied-feature" : {
-    "name" : "android.hardware.screen.landscape"
+    "name" : "android.hardware.wifi"
   },
   "supports-screens" : "small' 'normal' 'large' 'xlarge",
   "supports-any-density" : "true",
-  "locales" : "--_--' 'en' 'zh-CN",
+  "locales" : "--_--",
   "densities" : "120' '160' '240' '320' '480' '640' '65534",
   "native-code" : "arm64-v8a",
   "extractor" : {
     "meta" : {
-      "timestamp" : 1684602053
+      "timestamp" : 1684602052
     },
     "icons" : {
     }

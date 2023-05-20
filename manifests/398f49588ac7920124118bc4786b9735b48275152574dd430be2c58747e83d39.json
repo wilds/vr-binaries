@@ -1,0 +1,59 @@
+{
+  "package" : {
+    "name" : "com.tvb.cubism",
+    "versionCode" : "236",
+    "versionName" : "1.6.1",
+    "platformBuildVersionName" : "11",
+    "platformBuildVersionCode" : "30",
+    "compileSdkVersion" : "30",
+    "compileSdkVersionCodename" : "11"
+  },
+  "install-location" : "auto",
+  "sdkVersion" : "26",
+  "targetSdkVersion" : "30",
+  "uses-permission" : {
+    "name" : "android.permission.BLUETOOTH"
+  },
+  "application-label" : "cubism",
+  "application-icon-120" : "res/mipmap-ldpi-v4/app_icon.png",
+  "application-icon-160" : "res/mipmap-mdpi-v4/app_icon.png",
+  "application-icon-240" : "res/mipmap-hdpi-v4/app_icon.png",
+  "application-icon-320" : "res/mipmap-xhdpi-v4/app_icon.png",
+  "application-icon-480" : "res/mipmap-xxhdpi-v4/app_icon.png",
+  "application-icon-640" : "res/mipmap-xxxhdpi-v4/app_icon.png",
+  "application" : {
+    "label" : "cubism"
+  },
+  "launchable-activity" : {
+    "name" : "com.unity3d.player.UnityPlayerActivity"
+  },
+  "feature-group" : "abel='",
+  "uses-gl-es" : "0x30000",
+  "uses-feature-not-required" : {
+    "name" : "android.hardware.touchscreen.multitouch.distinct"
+  },
+  "uses-feature" : {
+    "name" : "android.hardware.wifi"
+  },
+  "uses-implied-feature" : {
+    "name" : "android.hardware.wifi"
+  },
+  "supports-screens" : "small' 'normal' 'large' 'xlarge",
+  "supports-any-density" : "true",
+  "locales" : "--_--",
+  "densities" : "120' '160' '240' '320' '480' '640",
+  "native-code" : "arm64-v8a",
+  "extractor" : {
+    "meta" : {
+      "timestamp" : 1684602052
+    },
+    "icons" : {
+      "application-icon-120" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAAAAADEa8dEAAABVklEQVQ4y8WUvU4CQRCAv9s98BAaYwiFQEmDhvg+PoCxNaFBKytN7HkAG2seBA2hsaYxRCuBU9zFYo5d5ThD4c82N5l8uzfzZXeCoKQBsJNtCVLLvISlbtMAanR6fmDWMXp4HOpmC4DdQhKswRTJdoPJYAyKDdavQCoTCX19o7IByFUk9/YoneiRdZDW7QhgvnO7B8DDkRG7s4mDKjcxgB5cziURx1dVC+jhiYPy+0mQW2aiw5rUpFVa3Wr4szJTF0R/+QCEZmANQNTIS+b1bmwBPZh7aHpRAIijXtLLc3sLEeb6DIvXLQO630l6seVu3YqLioNUtQYwdiWE9Xq6cNlmfcr+zX3aBHIO08/P3YK4nzicSPBJr4OiqCMnvNszOd3p9VCjt7wjwUJ+6/R6KF9bLcTr/aY7+48yddbA8XpDMyRjds3un+TdmWA5DtNjaVpUyTj8AFyzZloaNzCVAAAAAElFTkSuQmCC",
+      "application-icon-160" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAAAAAByaaZbAAABZElEQVRIx+1UQU6DUBCd+fw90A0LS3oGb6DeoEeo8QAm6trULfYGje6b2Bu00BN4AuNC1wUbl8K4gP/5YyDwjTE1ccJiGOb9eZ95MwCWhnB0TIRACJDdHZ5UfsuDcQIwJWUvw2vqsCkIIF0tJ+oiRAzQy4TtpQWgLWDPKfUAS9b29DVX8UB/ect0gpOBNE+l+VLVGy0OVPT+FlUUdyANSt5lSiUcV88fOpymZ36VhMnGpOSe1/7cqDu4Gir/ZiPaNGPcjHKmJSuj7zTOct5+g1IjhNBp1AuChHVBVY4/cfU5WeSpnBWjJOHxqQTg1h9rALwv6hIjycR3elH2xYmWxknBQ1jonIBR8lTffaO9JMOwc2vwwSj+UuP2mRLTj+HDFy3VL9tID/s60z7TGJkA39dLBsRA+1xjJmAybmTBNMYouW7zNZnG+vwl+tfST+0lRsPQlQAJcev4VjnJbuZVvRAxWNsn6kafxN6egn0AAAAASUVORK5CYII=",
+      "application-icon-240" : "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAAAAABwhuybAAABjUlEQVRYw+2YTWrCUBCA5yVDIW5LG0Ei3iLbLqQXkV7BZWm79Aq9gWfQA+QW3bjQ0i4NyMubLpv5gZeKhULf7Bwnn5P3mI9BgAuFA8CMZciTyMQjeEDAx7rrk/fLD56JR968eISsvmfZXeFEZkBkkAGIX/cE3U85HUB2qcNOoAT6RyB3joyMNO13vv8ZS17VvhN/APdkgrpl0a+kaj1h3zcPJ9FQ6w2Qu8JPZr8Anlcc33zO356sjm5ej47Z78mpE7ldlaQMKaO4i99HMZ8YhozbT1+HT4ZMoD8PyqO2EXNkPoAQGjYFNKoLUdNuxIgGE+Sf+XTPtlPR9GHBK0IgC+Suexpz7eEkqygfI89RhQYIV/PvWcbNQo/6eF2Jl8HS6qjsu6U0xI9VNejWWNtk2SekEUmgBLo8SPvQ4QCQrlE+JJExLapABNqHMmNYVINGs5PeNEksetqiGlRvKXoahkU1qJjGz9Wy6FnXT2lEEiiBfmWHlJFbW6XaIQdwlDPzJhh/1sUjeIfCoh4uFl+JpIL3SzGrOgAAAABJRU5ErkJggg==",
+      "application-icon-320" : "iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAAAAADH8yjkAAABXUlEQVRo3u2ZQY6DMAxFXSt3YIFyLQ7JtSIW3MGyZtFZDf+7uKULNPbSoTySpvxXELl7PUTa1I592w32U2W7SROZ1u5/h3QsG+qnSseySRNpvYPRRvqpaiIqIug6nfRT5fIEfLUKUIACFKAAtwfoFScPct0GyDRmCDiTLQTsy3HQ+zqjI4diqwgALrbBD8G5jij3cb+Dr8B2U7LYdOkYYFoNew49HssVn8GcmS+Xq9xW9ORYeVEBClCAfwXQT69I43+y58OdmIAOCwHnw52YgNgez+B0uAs7OMiihlaDhjtdOu+NAw55nQ33JziYwTGvs+H+Ytf5p+Fet4oCFKAABSjA2wC9QqKCcGT+AyUq8CgKYP4D+4FHEYBT/2F95lEYAJ+EBBV4FAagJyHRRgk8isxgvmirXPU78LpVFKAABShAAU4A9Fsn+X1JxFQnkcnGnyM9AmfKWEXm7dTN6gfZXobjKvBwOAAAAABJRU5ErkJggg==",
+      "application-icon-480" : "iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAAAAADCLb1kAAACPUlEQVR42u1bsXHDMAyEeOzJzoWUyyrJCB5BG6TwAu5dZAMP4CIjyMMkvdTrSBexkyIxAZ1gHmU/Kp0FU0/g8SJxFBEMNs8qIqKX11DFyw9/L/r9wPooXJjueEG1jUn7fOZ9NGxLRGSIiEI6iqPAR8PCD6BKmtsMZkojtSmtwBChhMVyUxal8B8sQgWXfSHCiLKHDoFDAARAAARhhDACEAAJzEod+68xOc4qPdLQ81D6SYD2H6m7oTnU6b/v+CdNAzQM6fsjF+DMHDJZST0qqbCY1Mw22W++Gcn3BtPvKdf6yI4j4ZB7YxyOssn7Tc2Po5F7cftxFIxjJiUYr47bVZDY5y4jFDV9ykxZvLMIPUDZQxghjBBGCCPKHsL44MKoX2WxtJRphMkqUcMSEXXJGEXfOnacfueT9OgmATqm98L12rFkHN6VisPMz4YaBbO/OoI4Ze56/vtBmPoV20cJjZUCajfX+hJ2J+TG6tAEHrQUkL/et/HS4mieFHUoKhBW64wa1kNz10M5z6mIhDHnWadlrqmLS1lxESqOQ0gZAAEQAAEQlPo/pY4LihBIjR4jAN16K13mRlHSP7Tzsfw+ixFGSf+Q8SES9CqjdGKS/qHEh+tVZie11eBQduNQ+9qqPEfaq2QBtWudeUt7lSwg53QyIe1VZhPGOAlQrk+1NFaMOSOEFSMALWpNvfDjOsWVPYQRwghAEEYII4QRwghAEEYIY7rsTaaJi3uVHYWKzl/r3ebCnPuQkfOBwWbbCbddQvahNjo/AAAAAElFTkSuQmCC",
+      "application-icon-640" : "iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAAAAAB3tzPbAAACK0lEQVR42u3dUWrDMAzGcaX4Dnlodqyessda+pA7GLIHO4PBYPpUtDr0r2fX9a+OTEHCMSMI4tQxmZlZmcvuG163qoxPXHhbiRUzM5vvixOw3h7K+ERAW0kHlOXD+8Eijs+LtvSLmZnt7t+zjdz316+/r+Fy9iQGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAJ6bp9SvvayihD9fVfIXWvczeb6hbVX6Waa1PALabs9VgX+5X95yrBKjbMzvw8A/17+rniEnsz5ZgXr3dKTRCl8SPUHOgLDZ5k6xG1iN2LsmA+e487I5+Hnl+rXNJ34Fr2ub2HdY6lxKTOJYtaucSf+YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAKCCv8p5epWxljozKu2kzH5X3GCCj8m7azEflPbgDCZV3U2f+nyQeoU+FYzQz5Npmv1fi7/p4duX9OCRKCOCoj2dX3r+P6dgOeOrj2ZX3Z3LA8+RlV945hQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBbqP0/6b0VavFX7f9xj28h9yPJALX/xz2+A9R+JH0HHrnj1X6k4ZJYzpk3OoWGu9NDzQH3nR7BZyfWjyQA3Hd6BAGxfiRlB67DPAxjJnEwx/gzBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAKQHjvNlHvo9IvF8ocf1if9FxH1FnaBeIpABaq4H8EhGCIE4eXxWOpZnLzVloAAAAAElFTkSuQmCC"
+    }
+  }
+}
