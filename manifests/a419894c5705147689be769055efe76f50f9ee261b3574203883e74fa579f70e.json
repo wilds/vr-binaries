@@ -1,0 +1,55 @@
+{
+  "package" : {
+    "name" : "com.mightygamesgroup.shootyvr",
+    "versionCode" : "83150",
+    "versionName" : "1.20.83150",
+    "platformBuildVersionName" : "11",
+    "platformBuildVersionCode" : "30",
+    "compileSdkVersion" : "30",
+    "compileSdkVersionCodename" : "11"
+  },
+  "install-location" : "auto",
+  "sdkVersion" : "26",
+  "targetSdkVersion" : "30",
+  "uses-permission" : {
+    "name" : "android.permission.INJECT_EVENTS"
+  },
+  "application-label" : "Shooty Skies Overdrive",
+  "application-label-en" : "Shooty Skies Overdrive",
+  "application-label-ja" : "Shooty Skies Overdrive",
+  "application-label-ko" : "Shooty Skies Overdrive",
+  "application-label-zh" : "Shooty Skies Overdrive",
+  "application-icon-120" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-160" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-240" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-320" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-480" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-640" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-65534" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application" : "abel='Shooty Skies Overdrive' icon='res/mipmap-anydpi-v26/app_icon.xml",
+  "launchable-activity" : {
+    "name" : "com.unity3d.player.UnityPlayerNativeActivityPico"
+  },
+  "feature-group" : "abel='",
+  "uses-gl-es" : "0x30001",
+  "uses-feature-not-required" : {
+    "name" : "android.hardware.touchscreen.multitouch.distinct"
+  },
+  "uses-feature" : {
+    "name" : "android.hardware.screen.landscape"
+  },
+  "uses-implied-feature" : {
+    "name" : "android.hardware.screen.landscape"
+  },
+  "supports-screens" : "small' 'normal' 'large' 'xlarge",
+  "supports-any-density" : "true",
+  "locales" : "--_--' 'en' 'ja' 'ko' 'zh",
+  "densities" : "120' '160' '240' '320' '480' '640' '65534",
+  "native-code" : "arm64-v8a",
+  "extractor" : {
+    "meta" : {
+      "timestamp" : 1684608444
+    },
+    "icons" : { }
+  }
+}

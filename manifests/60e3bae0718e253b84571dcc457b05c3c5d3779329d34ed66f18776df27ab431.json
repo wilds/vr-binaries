@@ -1,0 +1,55 @@
+{
+  "package" : {
+    "name" : "com.GoodNet.TheSilentDoll",
+    "versionCode" : "6",
+    "versionName" : "1.1.9",
+    "platformBuildVersionName" : "9",
+    "platformBuildVersionCode" : "28",
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9"
+  },
+  "install-location" : "auto",
+  "sdkVersion" : "25",
+  "targetSdkVersion" : "28",
+  "uses-permission" : {
+    "name" : "android.permission.ACCESS_WIFI_STATE"
+  },
+  "application-label" : "The Silent Doll 1.1.9",
+  "application-label-en" : "The Silent Doll 1.1.9",
+  "application-label-ja" : "The Silent Doll 1.1.9",
+  "application-label-ko" : "The Silent Doll 1.1.9",
+  "application-label-zh" : "The Silent Doll 1.1.9",
+  "application-icon-120" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-160" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-240" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-320" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-480" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-640" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-65534" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application" : "abel='The Silent Doll 1.1.9' icon='res/mipmap-anydpi-v26/app_icon.xml",
+  "launchable-activity" : {
+    "name" : "com.unity3d.player.UnityPlayerNativeActivityPico"
+  },
+  "feature-group" : "abel='",
+  "uses-gl-es" : "0x30000",
+  "uses-feature-not-required" : {
+    "name" : "android.hardware.touchscreen.multitouch.distinct"
+  },
+  "uses-feature" : {
+    "name" : "android.hardware.wifi"
+  },
+  "uses-implied-feature" : {
+    "name" : "android.hardware.wifi"
+  },
+  "supports-screens" : "small' 'normal' 'large' 'xlarge",
+  "supports-any-density" : "true",
+  "locales" : "--_--' 'en' 'ja' 'ko' 'zh",
+  "densities" : "120' '160' '240' '320' '480' '640' '65534",
+  "native-code" : "arm64-v8a",
+  "extractor" : {
+    "meta" : {
+      "timestamp" : 1684608445
+    },
+    "icons" : { }
+  }
+}

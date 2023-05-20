@@ -1,0 +1,56 @@
+{
+  "package" : {
+    "name" : "com.YinXinGuo.TankHunter",
+    "versionCode" : "14",
+    "versionName" : "1.4",
+    "platformBuildVersionName" : "11",
+    "platformBuildVersionCode" : "30",
+    "compileSdkVersion" : "30",
+    "compileSdkVersionCodename" : "11"
+  },
+  "install-location" : "auto",
+  "sdkVersion" : "27",
+  "targetSdkVersion" : "30",
+  "uses-permission" : {
+    "name" : "android.permission.READ_EXTERNAL_STORAGE"
+  },
+  "application-label" : "TankHunter",
+  "application-label-zh-CN" : "坦克猎人",
+  "application-icon-160" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-240" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-320" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-480" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-640" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application-icon-65534" : "res/mipmap-anydpi-v26/app_icon.xml",
+  "application" : {
+    "label" : "TankHunter"
+  },
+  "launchable-activity" : {
+    "name" : "com.unity3d.player.UnityPlayerActivity"
+  },
+  "uses-implied-permission" : {
+    "name" : "android.permission.READ_EXTERNAL_STORAGE"
+  },
+  "feature-group" : "abel='",
+  "uses-gl-es" : "0x30000",
+  "uses-feature-not-required" : {
+    "name" : "android.hardware.vulkan.version"
+  },
+  "uses-feature" : {
+    "name" : "android.hardware.screen.landscape"
+  },
+  "uses-implied-feature" : {
+    "name" : "android.hardware.screen.landscape"
+  },
+  "supports-screens" : "small' 'normal' 'large' 'xlarge",
+  "supports-any-density" : "true",
+  "locales" : "--_--' 'zh-CN",
+  "densities" : "160' '240' '320' '480' '640' '65534",
+  "native-code" : "arm64-v8a",
+  "extractor" : {
+    "meta" : {
+      "timestamp" : 1684608444
+    },
+    "icons" : { }
+  }
+}
